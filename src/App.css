@@ -1,0 +1,44 @@
+.clear-all {
+	margin-left: 48%;
+    color: blue;
+    cursor: pointer;
+}
+
+.clear-all:hover {
+    color: #BB1FB7;
+}
+
+.container .ReactTable .-pagination .-previous, .ReactTable .-pagination .-next {
+    display: none;
+    -ms-flex: 1;
+     flex: 1;
+   }
+
+   .container .ReactTable .-pagination .-pageInfo {
+    
+    display: none;
+    margin: 3px 10px;
+    white-space: nowrap;
+}
+
+ .container .ReactTable .-pagination .-pageSizeOptions {
+    margin-left: 67%;
+}
+
+.container .ReactTable .select-wrap {
+    display: none;
+    position: relative;
+}
+
+.container .ReactTable .-pagination {
+        padding: 0px;
+}
+
+.table-scrollbar {
+  height: 450px;
+}
+
+.count {
+	margin-left: 84%;
+    line-height: 4;
+}
